@@ -1,0 +1,201 @@
+@keyframes animate-lotek-fill-1 {
+0% {
+fill: transparent;
+}
+100% {
+fill: rgb(111, 255, 210);
+}
+}
+.lynx-logo-text-1 {
+animation: animate-lotek-fill-1 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both;
+}
+@keyframes animate-lotek-fill-2 {
+0% {
+fill: transparent;
+}
+100% {
+fill: rgb(111, 255, 210);
+}
+}
+.lynx-logo-text-2 {
+animation: animate-lotek-fill-2 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both;
+}
+@keyframes animate-lotek-fill-3 {
+0% {
+fill: transparent;
+}
+100% {
+fill: rgb(111, 255, 210);
+}
+}
+.lynx-logo-text-3 {
+animation: animate-lotek-fill-3 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both;
+}
+@keyframes animate-lotek-stroke-4 {
+0% {
+stroke-dashoffset: 39.70590591430664px;
+stroke-dasharray: 39.70590591430664px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 39.70590591430664px;
+}
+}
+.lynx-logo-text-4 {
+animation: animate-lotek-stroke-4 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 0.75s
+both;
+}
+@keyframes animate-lotek-stroke-5 {
+0% {
+stroke-dashoffset: 60.06648254394531px;
+stroke-dasharray: 60.06648254394531px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 60.06648254394531px;
+}
+}
+.lynx-logo-text-5 {
+animation: animate-lotek-stroke-5 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1s
+both;
+}
+@keyframes animate-lotek-stroke-6 {
+0% {
+stroke-dashoffset: 40.80655288696289px;
+stroke-dasharray: 40.80655288696289px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 40.80655288696289px;
+}
+}
+.lynx-logo-text-6 {
+animation: animate-lotek-stroke-6 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.25s
+both;
+}
+@keyframes animate-lotek-stroke-7 {
+0% {
+stroke-dashoffset: 33.563785552978516px;
+stroke-dasharray: 33.563785552978516px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 33.563785552978516px;
+}
+}
+.lynx-logo-text-7 {
+animation: animate-lotek-stroke-7 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5s
+both;
+}
+@keyframes animate-lotek-stroke-8 {
+0% {
+stroke-dashoffset: 74.30195617675781px;
+stroke-dasharray: 74.30195617675781px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 74.30195617675781px;
+}
+}
+.lynx-logo-text-8 {
+animation: animate-lotek-stroke-8 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.75s
+both;
+}
+@keyframes animate-lotek-stroke-9 {
+0% {
+stroke-dashoffset: 111.75010681152344px;
+stroke-dasharray: 111.75010681152344px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 111.75010681152344px;
+}
+}
+.lynx-logo-text-9 {
+animation: animate-lotek-stroke-9 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2s
+both;
+}
+@keyframes animate-lotek-stroke-10 {
+0% {
+stroke-dashoffset: 11.472135543823242px;
+stroke-dasharray: 11.472135543823242px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 11.472135543823242px;
+}
+}
+.lynx-logo-text-10 {
+animation: animate-lotek-stroke-10 0.5s cubic-bezier(0.47, 0, 0.745, 0.715)
+2.25s both;
+}
+@keyframes animate-lotek-stroke-11 {
+0% {
+stroke-dashoffset: 108px;
+stroke-dasharray: 108px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 108px;
+}
+}
+.lynx-logo-text-11 {
+animation: animate-lotek-stroke-11 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.5s
+both;
+}
+@keyframes animate-lotek-stroke-12 {
+0% {
+stroke-dashoffset: 88px;
+stroke-dasharray: 88px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 88px;
+}
+}
+.lynx-logo-text-12 {
+animation: animate-lotek-stroke-12 0.5s cubic-bezier(0.47, 0, 0.745, 0.715)
+2.75s both;
+}
+@keyframes animate-lotek-stroke-13 {
+0% {
+stroke-dashoffset: 114px;
+stroke-dasharray: 114px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 114px;
+}
+}
+.lynx-logo-text-13 {
+animation: animate-lotek-stroke-13 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 3s
+both;
+}
+@keyframes animate-lotek-stroke-14 {
+0% {
+stroke-dashoffset: 80px;
+stroke-dasharray: 80px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 80px;
+}
+}
+.lynx-logo-text-14 {
+animation: animate-lotek-stroke-14 0.5s cubic-bezier(0.47, 0, 0.745, 0.715)
+3.25s both;
+}
+@keyframes animate-lotek-stroke-15 {
+0% {
+stroke-dashoffset: 68px;
+stroke-dasharray: 68px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 68px;
+}
+}
+.lynx-logo-text-15 {
+animation: animate-lotek-stroke-15 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 3.5s
+both;
+}

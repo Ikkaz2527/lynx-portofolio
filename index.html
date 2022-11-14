@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/bgAnimate.css">
+    <link rel="stylesheet" href="css/lynxLogoAnimate.css">
+    <link rel="stylesheet" href="css/lynxLogoTeksAnimate.css">
+    <link rel="stylesheet" href="css/logoLoading.css">
+    <title>Portofolio || Zakki Attarik</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body onload="preload()">
+    <div class="cursor">
+        <div class="cursor__ball cursor__ball--big ">
+            <svg height="30" width="30">
+                <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+            </svg>
+        </div>
+        <div class="cursor__ball cursor__ball--small">
+            <svg height="10" width="10">
+                <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+            </svg>
+        </div>
+    </div>
+    <div class="div" id="loader">
+        <svg class="hoverable" width="96" height="96" viewBox="0 0 96 96" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_56_4)">
+                <path d="M5.56476 77.5L48 4L90.4352 77.5H5.56476Z" fill="#1E1E2C" stroke="#6FFFD2" class="svg-elem-1">
+                </path>
+                <path
+                    d="M49 30H48H47L39 28L25.5 16.5L24 12L27 3L25 4.5L22 12L22.4754 17.7049L21 30L25.5 37.5L22.5 48L27.5 59.5L36 62.5L37.5 67.5L44 69.5L47.5 67.5L48 66L48.5 67.5L52 69.5L58.5 67.5L60 62.5L68.5 59.5L73.5 48L70.5 37.5L75 30L73.5246 17.7049L74 12L71 4.5L69 3L72 12L70.5 16.5L57 28L49 30Z"
+                    fill="#1E1E2C" class="svg-elem-2"></path>
+                <path
+                    d="M27.5 59.5L22.5 48L18 69L22.5 64.5V78L27 70.5L31.5 90L33 85.5V73.5L37.5 81V73.5L41.7955 70.6364L44.25 73.5H47.5H48H48.5H51.75L54.2045 70.6364L58.5 73.5V81L63 73.5V85.5L64.5 90L69 70.5L73.5 78V64.5L78 69L73.5 48L68.5 59.5L60 62.5L58.5 67.5L52 69.5L48.5 67.5L48 66L47.5 67.5L44 69.5L37.5 67.5L36 62.5L27.5 59.5Z"
+                    fill="#1E1E2C" class="svg-elem-3"></path>
+                <path d="M61 48L53.5 53.5L54 54L60 52.5L64 48H61Z" fill="#6FFFD2" class="svg-elem-4"></path>
+                <path d="M35 48L42.75 53.25L42 54L36 52.5L32 48H35Z" fill="#6FFFD2" class="svg-elem-5"></path>
+                <path d="M45 62L43.5 64.5L48 67.5L52.5 64.5L51 62H45Z" fill="#6FFFD2" class="svg-elem-6"></path>
+                <path d="M52.5 64.5L55.5 56.25L48.5 46.5H48.25M43.5 64.5L40.5 56.25L47.5 46.5H47.75M48 64V29.5"
+                    stroke="#6FFFD2" stroke-width="0.5" class="svg-elem-7"></path>
+                <path
+                    d="M48.25 30H49L57 28L70.5 16.5L72 12L69 3L71 4.5L74 12L73.5 18M47.75 30H47L39 28L25.5 16.5L24 12L27 3L25 4.5L22 12L22.5 18"
+                    stroke="#6FFFD2" class="svg-elem-8"></path>
+                <path d="M22.5 17L24 27L31.5 34.5L37.5 36L47.5 33H47.75M73.5 17L72 27L64.5 34.5L58.5 36L48.5 33H48.25"
+                    stroke="#6FFFD2" stroke-width="0.5" class="svg-elem-9"></path>
+                <path d="M58.5 36L61 48H73.5M37.5 36L35 48H22.5M54.75 58.5L60 62.25M41.25 58.5L36 62.25"
+                    stroke="#6FFFD2" stroke-width="0.5" class="svg-elem-10"></path>
+                <path
+                    d="M22.5 17.5L21 30L25.5 37.5L22.5 48L27.5 59.5L36 62.5L37.5 67.5L44 69.5L47.5 67.5V66M73.5 17.5L75 30L70.5 37.5L73.5 48L68.5 59.5L60 62.5L58.5 67.5L52 69.5L48.5 67.5V66"
+                    stroke="#6FFFD2" class="svg-elem-11"></path>
+                <path
+                    d="M73.5 48L78 69L73.5 64.5V78L69 70.5L64.5 90L63 85.5V73.5L58.5 81V73.5L54 70.5M22.5 48L18 69L22.5 64.5V78L27 70.5L31.5 90L33 85.5V73.5L37.5 81V73.5L42 70.5"
+                    stroke="#6FFFD2" class="svg-elem-12"></path>
+                <path d="M56.25 68.25L51.75 73.5H48.5V73M39.75 68.25L44.25 73.5H47.5V73" stroke="#6FFFD2"
+                    class="svg-elem-13"></path>
+            </g>
+            <defs>
+                <clipPath id="clip0_56_4">
+                    <rect width="96" height="96" fill="white" class="svg-elem-14"></rect>
+                </clipPath>
+            </defs>
+        </svg>
+    </div>
+    <div style="display: none;" id="myDiv" class="animate">
+        <div class="wrapper">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+        </div>
+        <nav class="animate__animated animate__slideInDown">
+            <ul>
+                <li><a href="#slide-1" class="hoverable">Home</a></li>
+                <li><a href="#slide-2" class="hoverable">AboutMe</a></li>
+                <div class="logo">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M41 31.5L35.5 35.5L36 36L40 35L43 31.5H41Z" fill="#6FFFD2"
+                            class="ly-1 lynx-logo-only-1">
+                        </path>
+                        <path d="M23 31.5L28.5 35.5L28 36L24 35L21 31.5H23Z" fill="#6FFFD2"
+                            class="ly-2 lynx-logo-only-2">
+                        </path>
+                        <path d="M30 41.5L29 43L32 45L35 43L34 41.5H30Z" fill="#6FFFD2" class="ly-3 lynx-logo-only-3">
+                        </path>
+                        <path d="M35 43L37 37.5L32.5 31H32.25M29 43L27 37.5L31.5 31H31.75M32 43V20" stroke="#6FFFD2"
+                            stroke-width="0.5" class="ly-4 lynx-logo-only-4"></path>
+                        <path
+                            d="M32.5 20.5V20L38 18.5L47 11L48 8L46 2L47.5 3L49.5 8L49 12M31.5 20.5V20L26 18.5L17 11L16 8L18 2L16.5 3L14.5 8L15 12"
+                            stroke="#6FFFD2" class="ly-5 lynx-logo-only-5"></path>
+                        <path d="M14.5 8L16 18L21 23L25 24L31.5 22H31.75M49.5 8L48 18L43 23L39 24L32.5 22H32.25"
+                            stroke="#6FFFD2" stroke-width="0.5" class="ly-6 lynx-logo-only-6"></path>
+                        <path d="M39 24L41 31.5L49 32M25 24L23 31.5L15 32M36.5 39L40 41.5M27.5 39L24 41.5"
+                            stroke="#6FFFD2" stroke-width="0.5" class="ly-7 lynx-logo-only-7"></path>
+                        <path
+                            d="M15 11.5L14 20L17 25L15 32L18.5 39.5L24 41.5L25 45L29.5 46.5L31.5 45V44M49 11.5L50 20L47 25L49 32L45.5 39.5L40 41.5L39 45L34.5 46.5L32.5 45V44"
+                            stroke="#6FFFD2" class="ly-8 lynx-logo-only-8"></path>
+                        <path
+                            d="M49 32L52 46L49 43V52L46 47L43 60L42 57V49L39 54V49L36 47M15 32L12 46L15 43V52L18 47L21 60L22 57V49L25 54V49L28 47"
+                            stroke="#6FFFD2" class="ly-9 lynx-logo-only-9"></path>
+                        <path d="M37.5 45.5L34.5 49H32.5V48.5M26.5 45.5L29.5 49H31.5V48.5" stroke="#6FFFD2"
+                            class="ly-10 lynx-logo-only-10"></path>
+                    </svg>
+                </div>
+                <li><a href="#slide-3" class="hoverable">Work</a></li>
+                <li><a href="#slide-4" class="hoverable">Contact</a></li>
+            </ul>
+            <div class="logo-teks">
+                <svg width="104" height="48" viewBox="0 0 104 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30.5 23.5L26.5 26.5L27 27L30 26L32.5 23.5H30.5Z" fill="#6FFFD2" class="lynx-logo-text-1">
+                    </path>
+                    <path d="M17.5 23.5L21.5 26.5L21 27L18 26L15.5 23.5H17.5Z" fill="#6FFFD2" class="lynx-logo-text-2">
+                    </path>
+                    <path d="M22.5 31L22 32L24 34L26 32L25.5 31H22.5Z" fill="#6FFFD2" class="lynx-logo-text-3"></path>
+                    <path d="M26 32L27.5 28L24.5 23H24.25M22 32L20.5 28L23.5 23H23.75M24 32V15" stroke="#6FFFD2"
+                        stroke-width="0.5" class="lynx-logo-text-4"></path>
+                    <path
+                        d="M24.5 14.5V15L28.5 14L35.5 8L36 6L34.5 1.5L35.5 2L36.75 6L36.5 9M23.5 14.5V15L19.5 13.875L12.375 8L12 6L13.5 1.5L12.5 2L11 6L11.5 9"
+                        stroke="#6FFFD2" class="lynx-logo-text-5"></path>
+                    <path d="M11.5 6L13 13L16 16L19 17L23.625 16.5H23.8125M36.5 6L35 13L32 16L29 17L24.375 16.5H24.1875"
+                        stroke="#6FFFD2" stroke-width="0.5" class="lynx-logo-text-6"></path>
+                    <path d="M29.25 18L30.5 23.5L36.5 24M19 17L17.5 23.5L11.5 24M27 29L30 31M21 29L18 31"
+                        stroke="#6FFFD2" stroke-width="0.5" class="lynx-logo-text-7"></path>
+                    <path
+                        d="M11.5 8L11 15L13 19L11.5 24L14 29.5L18 31L19 34L22 35L23.5 34V33M36.5 8L37 15L35 19L36.5 24L34 29.5L30 31L29 34L26 35L24.5 34V33"
+                        stroke="#6FFFD2" class="lynx-logo-text-8"></path>
+                    <path
+                        d="M36.5 24L39 34L36.5 32.5V39L34.5 35.5L32 45L31 41.5L32 36L29 41V37L27 36M11.5 24L9 34L11.5 32.5V39L13.5 35.5L16 45L17 41.5L16 36L19 41V37L21 36"
+                        stroke="#6FFFD2" class="lynx-logo-text-9"></path>
+                    <path d="M27.5 34.5L26.5 36.5H24.5V36M20.5 34.5L21.5 36.5H23.5V36" stroke="#6FFFD2"
+                        class="lynx-logo-text-10"></path>
+                    <path d="M45 40V9H47V39H90" stroke="#6FFFD2" stroke-width="2" class="lynx-logo-text-11"></path>
+                    <path d="M51 25V9H53V26H55V36M61 25V13H59V26H57V36" stroke="#6FFFD2" stroke-width="2"
+                        class="lynx-logo-text-12"></path>
+                    <path d="M67 16V9H65V35H67V17H69V19H71V21H73V23H75V25H77V31H79V13H77V24" stroke="#6FFFD2"
+                        stroke-width="2" class="lynx-logo-text-13"></path>
+                    <path d="M70 9H85V11H83V13H85V15H83V17H85V19H83V21H85V23H87V25H91V27H93V39H95V28" stroke="#6FFFD2"
+                        stroke-width="2" class="lynx-logo-text-14"></path>
+                    <path d="M95 22V13H93V23H91V25H87V27H85V29H83V31H85V33H83V35H86H70" stroke="#6FFFD2"
+                        stroke-width="2" class="lynx-logo-text-15"></path>
+                </svg>
+
+            </div>
+        </nav>
+        <ul class="sosmed animate__animated animate__slideInUp animate__slow">
+            <a class="link-codepen hoverable" href="https://codepen.io/ikkaz27" target="_blank">
+                <i class='bx bxl-codepen bx-sm'></i>
+            </a>
+            <a class="link-facebook hoverable" href="https://web.facebook.com/ikkaz.2527/" target="_blank">
+                <i class='bx bxl-facebook bx-sm'></i>
+            </a>
+            <a class="link-github hoverable" href="https://github.com/Ikkaz2527" target="_blank">
+                <i class='bx bxl-github bx-sm'></i>
+            </a>
+            <a class="link-instagram hoverable" href="https://www.instagram.com/zak.ki_/?hl=id" target="_blank">
+                <i class='bx bxl-instagram bx-sm'></i>
+            </a>
+        </ul>
+        <div class="mail">
+            <a class="link hoverable" href="mailto:zakkiattarik25@gmail.com">zakkiattarik25@gmail.com</a>
+        </div>
+        <div class="slides-container">
+            <div class="slide" id="slide-1">
+                <div class="eusi-home">
+                    <div class="intro animate__animated animate__zoomIn">
+                        <span class="font-head-2">Hi I'm <span class="hoverable">Zack</span></span>
+                        <span class="font-head-1">
+                            A <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                        </span>
+                        <a href="assets/Zakki Attarik CV.pdf" download class="tomol hoverable">
+                            <div class="eusi-tomol-1">Download CV</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="slide-2">
+                <div class="eusi-about">
+                    <div class="intro-about">
+                        <div class="potoaing" data-aos="zoom-in">
+                            <svg>
+                                <filter id="pixelate" x="0" y="0">
+                                    <feFlood x="0" y="0" height="1" width="1" />
+                                    <feComposite width="8" height="8" />
+                                    <feTile result="a" />
+                                    <feComposite in="SourceGraphic" in2="a" operator="in" />
+                                    <feMorphology operator="dilate" radius="4" />
+                                </filter>
+                            </svg>
+                        </div>
+                        <div class="card-intro">
+                            <div class="card-judul">
+                                <span class="font-head-1" data-aos="fade-right">Hi I,m Zack</span>
+                                <span class="font-head" data-aos="fade-left">
+                                    A <span class="hoverable">Web developer</span> & <span class="hoverable">Ui/Ux
+                                        Design</span>
+                                </span>
+                            </div>
+                            <div class="card-teks">
+                                <p data-aos="fade-right">
+                                    graduate from Vocational High School majoring in software engineering. Having
+                                    experience
+                                    in
+                                    developing and implementing website applications through internship opportunities in
+                                    a
+                                    multinational company. Looking for job opportunities that provide opportunities for
+                                    further development.
+                                </p>
+                                <p data-aos="fade-left">
+                                    My full name is <span class="hoverable">Zakki Attarik</span>, but my friends usually
+                                    call me Zack. I have a hobby
+                                    of
+                                    drawing digital art illustrations and web designing, also a frontend web developer.
+                                    born
+                                    in Bandung on April 25, 2004.
+                                </p>
+                                <p data-aos="fade-right">
+                                    I can work with a team, be honest, and have high creativity,and below are some of
+                                    the
+                                    skills
+                                    that I have mastered :
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-set">
+                        <div class="skill" data-aos="zoom-out-down">
+                            <span class="font-body">UI/UX Design</span>
+                            <li class="hoverable"><i class='bx bxl-figma bx-fw bx-sm'></i> Figma</li>
+                            <li class="hoverable"><i class='bx bxs-palette bx-fw bx-sm'></i> Canva</li>
+                        </div>
+                        <div class="skill" data-aos="zoom-out-down">
+                            <span class="font-body">Frontend development</span>
+                            <li class="hoverable"><i class='bx bxl-react bx-fw bx-sm'></i> React Js</li>
+                            <li class="hoverable"><i class='bx bxl-sass bx-fw bx-sm'></i> SASS</li>
+                            <li class="hoverable"><i class='bx bxl-tailwind-css bx-fw bx-sm'></i>Tailwind CSS</li>
+                        </div>
+                        <div class="skill" data-aos="zoom-out-down">
+                            <span class="font-body">Backend development</span>
+                            <li class="hoverable"><i class='bx bxs-hot bx-fw bx-sm'></i> CodeIgniter</li>
+                            <li class="hoverable"><i class='bx bxl-javascript bx-fw bx-sm'></i> Express Js</li>
+                        </div>
+                        <div class="skill" data-aos="zoom-out-down">
+                            <span class="font-body">Database</span>
+                            <li class="hoverable"><i class='bx bxs-data bx-fw bx-sm'></i> MySql</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="slide-3">
+                <div class="eusi-work">
+                    <div class="judul" data-aos="zoom-in">
+                        <span class="font-head">Work</span>
+                        <p>Some of my Projects</p>
+                    </div>
+                    <div class="project">
+                        <figure class="card-project" data-aos="zoom-out-right">
+                            <img src="./assets/img/Project/Portofolio1-Project.JPG" alt="Portofolio1-Project" />
+                            <figcaption>
+                                <a href="https://github.com/Ikkaz2527" target="_blank" class="font-body hoverable">Lynx
+                                    Portofolio</a>
+                                <p>2022.11</p>
+                                <div class="badges">
+                                    <span class="badge"><i class='bx bx-hash bx-fw'></i>HTML5</span>
+                                    <span class="badge"><i class='bx bx-hash bx-fw'></i>CSS3</span>
+                                    <span class="badge"><i class='bx bx-hash bx-fw'></i>GSAP</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-project" data-aos="zoom-out-left">
+                            <img src="./assets/img/Project/Ujikom-Project.JPG" alt="Ujikom-Project" />
+                            <figcaption>
+                                <a href="https://github.com/Ikkaz2527" target="_blank" class="font-body hoverable">Cafe
+                                    Bisa
+                                    Ngopi</a>
+                                <p>2022.05</p>
+                                <div class="badges">
+                                    <span class="badge"><i class='bx bx-hash bx-fw'></i>CI3</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-project" data-aos="zoom-out-right">
+                            <img src="./assets/img/Project/PKL-Project.JPG" alt="Ujikom-Project" />
+                            <figcaption>
+                                <a href="https://github.com/Ikkaz2527" target="_blank" class="font-body hoverable">Point
+                                    Of
+                                    Sale</a>
+                                <p>2022.03</p>
+                                <div class="badges">
+                                    <span class="badge"><i class='bx bx-hash bx-fw'></i>CI3</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <a href="Soon.html" class="tomol hoverable" data-aos="fade-up">
+                        <div class="eusi-tomol-1">See More My Project</div>
+                    </a>
+                </div>
+            </div>
+            <div class="slide" id="slide-4">
+                <div class="eusi-contact">
+                    <div class="judul" data-aos="zoom-in">
+                        <span class="font-head">Get In Touch</span>
+                        <p>Got a question or proposal, or just want to say hello?</p>
+                    </div>
+                    <main>
+                        <form name="submit-to-google-sheet" data-aos="fade-up">
+                            <div class="form-input hoverable">
+                                <input type="text" name="name" id="name" class="input" autocomplete="off"
+                                    placeholder="Enter your name" required>
+                                <label class="label" for="name">Your Name</label>
+                            </div>
+                            <div class="form-input hoverable">
+                                <select name="service" id="service" class="input" required>
+                                    <option hidden> </option>
+                                    <option value="UI Design">Ui Design</option>
+                                    <option value="Web Development">Web Development</option>
+                                </select>
+                                <label class="label" for="service">Service</label>
+                            </div>
+                            <div class="form-input hoverable">
+                                <input type="email" name="email" id="email" class="input" autocomplete="off"
+                                    placeholder="Enter your mail" required>
+                                <label class="label" for="email">Email Address</label>
+                            </div>
+                            <div class="form-input hoverable">
+                                <textarea name="message" id="message" cols="25" rows="3" class="input"
+                                    required></textarea>
+                                <label class="label" for="message">Your Message</label>
+                            </div>
+                            <p></p>
+                            <button type="submit" class="tomol tomol-send hoverable">
+                                <div class="eusi-tomol-1">Send Message</div>
+                            </button>
+                            <button disabled class="tomol tomol-loading disp-none hoverable">
+                                <div class="eusi-tomol-1">Sending Message<i class='bx bx-send bx-fw bx-tada'></i></div>
+                            </button>
+                            <button disabled class="tomol tomol-done disp-none hoverable">
+                                <div class="eusi-tomol-1">Message Sent Thank you</div>
+                            </button>
+                        </form>
+                    </main>
+                </div>
+            </div>
+            <footer>
+                <div class="contact" data-aos="fade-down">
+                    <div class="mailfooter">
+                        <span>Mail :</span>
+                        <a class="link" href="">zakkiattarik25@gmail.com</a>
+                    </div>
+                    <div class="sosmedfooter">
+                        <span>Social Media :</span>
+                        <div class="media">
+                            <a class="link-codepen" href="https://codepen.io/ikkaz27" target="_blank">
+                                <i class='bx bxl-codepen bx-sm'></i>
+                            </a>
+                            <a class="link-facebook" href="https://web.facebook.com/ikkaz.2527/" target="_blank">
+                                <i class='bx bxl-facebook bx-sm'></i>
+                            </a>
+                            <a class="link-github" href="https://github.com/Ikkaz2527" target="_blank">
+                                <i class='bx bxl-github bx-sm'></i>
+                            </a>
+                            <a class="link-instagram" href="https://www.instagram.com/zak.ki_/?hl=id" target="_blank">
+                                <i class='bx bxl-instagram bx-sm'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <span class="copyright">© Zakki Attarik 2022</span>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/ScrollToPlugin.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/typing.js"></script>
+    <script src="js/input.js"></script>
+    <script src="js/cursor.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwkX0ydCTalVjmynfG8Qc3ZPSb99CPUWYyPxnk6l9sw6vTx3NeydJ-0ZiIEq5w-24YZ/exec'
+        const form = document.forms['submit-to-google-sheet'];
+        const tomolSend = document.querySelector('.tomol-send');
+        const tomolLoading = document.querySelector('.tomol-loading');
+        const tomolDone = document.querySelector('.tomol-done');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault()
+            tomolLoading.classList.toggle('disp-none');
+            tomolSend.classList.toggle('disp-none');
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    tomolLoading.classList.toggle('disp-none');
+                    tomolDone.classList.toggle('disp-none');
+                    form.reset();
+                    console.log('Success!', response);
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+        var preload;
+        function preload() {
+            preload = setTimeout(showPage, 5555);
+        }
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+</body>
+
+</html>

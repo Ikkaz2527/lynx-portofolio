@@ -1,0 +1,139 @@
+@keyframes animate-svg-panon-kiri {
+0% {
+fill: transparent;
+}
+100% {
+fill: rgb(111, 255, 210);
+filter: drop-shadow(0 0 2px rgb(0, 255, 174))
+drop-shadow(0 0 4px rgba(0, 255, 174, 0.8))
+drop-shadow(0 0 8px rgba(0, 255, 174, 0.6));
+}
+}
+.lynx-logo-only-1 {
+animation: animate-svg-panon-kiri 0.5s ease 0s both;
+}
+@keyframes animate-svg-panon-kanan {
+0% {
+fill: transparent;
+}
+100% {
+fill: rgb(111, 255, 210);
+filter: drop-shadow(0 0 2px rgb(0, 255, 174))
+drop-shadow(0 0 4px rgba(0, 255, 174, 0.8))
+drop-shadow(0 0 8px rgba(0, 255, 174, 0.6));
+}
+}
+.lynx-logo-only-2 {
+animation: animate-svg-panon-kanan 0.5s ease 0s both;
+}
+@keyframes animate-svg-irung {
+0% {
+fill: transparent;
+}
+100% {
+fill: rgb(111, 255, 210);
+filter: drop-shadow(0 0 2px rgb(0, 255, 174))
+drop-shadow(0 0 4px rgba(0, 255, 174, 0.8));
+}
+}
+.lynx-logo-only-3 {
+animation: animate-svg-irung 0.5s ease 0s both;
+}
+@keyframes animate-svg-stroke-4-logo {
+0% {
+stroke-dashoffset: 53.01608657836914px;
+stroke-dasharray: 53.01608657836914px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 53.01608657836914px;
+filter: drop-shadow(0 0 2px rgb(0, 255, 174));
+}
+}
+.lynx-logo-only-4 {
+animation: animate-svg-stroke-4-logo 2s ease 1.2000000000000002s both;
+}
+@keyframes animate-svg-stroke-5-logo {
+0% {
+stroke-dashoffset: 79.24430084228516px;
+stroke-dasharray: 79.24430084228516px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 79.24430084228516px;
+filter: drop-shadow(0 0 4px rgb(0, 255, 174));
+}
+}
+.lynx-logo-only-5 {
+animation: animate-svg-stroke-5-logo 2s ease 1.6s both;
+}
+@keyframes animate-svg-stroke-6-logo {
+0% {
+stroke-dashoffset: 58.713565826416016px;
+stroke-dasharray: 58.713565826416016px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 58.713565826416016px;
+filter: drop-shadow(0 0 2px rgb(0, 255, 174));
+}
+}
+.lynx-logo-only-6 {
+animation: animate-svg-stroke-6-logo 2s ease 2s both;
+}
+@keyframes animate-svg-stroke-7-logo {
+0% {
+stroke-dashoffset: 42.157718658447266px;
+stroke-dasharray: 42.157718658447266px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 42.157718658447266px;
+filter: drop-shadow(0 0 2px rgb(0, 255, 174));
+}
+}
+.lynx-logo-only-7 {
+animation: animate-svg-stroke-7-logo 2s ease 2.4000000000000004s both;
+}
+@keyframes animate-svg-stroke-8-logo {
+0% {
+stroke-dashoffset: 97.36395263671875px;
+stroke-dasharray: 97.36395263671875px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 97.36395263671875px;
+filter: drop-shadow(0 0 4px rgb(0, 255, 174));
+}
+}
+.lynx-logo-only-8 {
+animation: animate-svg-stroke-8-logo 2s ease 2.8000000000000003s both;
+}
+@keyframes animate-svg-stroke-9-logo {
+0% {
+stroke-dashoffset: 146.6636962890625px;
+stroke-dasharray: 146.6636962890625px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 146.6636962890625px;
+filter: drop-shadow(0 0 4px rgb(0, 255, 174));
+}
+}
+.lynx-logo-only-9 {
+animation: animate-svg-stroke-9-logo 2s ease 3.2s both;
+}
+@keyframes animate-svg-stroke-10-logo {
+0% {
+stroke-dashoffset: 16.219544410705566px;
+stroke-dasharray: 16.219544410705566px;
+}
+100% {
+stroke-dashoffset: 0;
+stroke-dasharray: 16.219544410705566px;
+filter: drop-shadow(0 0 4px rgb(0, 255, 174));
+}
+}
+.lynx-logo-only-10 {
+animation: animate-svg-stroke-10-logo 2s ease 3.6s both;
+}
